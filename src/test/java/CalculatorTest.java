@@ -1,4 +1,5 @@
 import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.DisplayNameGenerator;
@@ -41,6 +42,7 @@ public class CalculatorTest {
         assertEquals( -1.0,calculator.subtract(a, c));
     }
 
+    @Disabled
     @Test
     public void testSum() {
         double a = -1.0;
